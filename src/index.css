@@ -1,0 +1,60 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #030712;
+  color: #e2e8f0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #06b6d4;
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(6, 182, 212, 0.25);
+  color: #e2e8f0;
+}
+
+/* Cursor blink animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Responsive: hide desktop nav on mobile */
+@media (max-width: 768px) {
+  .nav-desktop {
+    display: none !important;
+  }
+  .nav-burger {
+    display: flex !important;
+  }
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+}
