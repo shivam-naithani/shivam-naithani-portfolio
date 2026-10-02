@@ -2,8 +2,7 @@
 
 Personal portfolio website showcasing my projects, skills, and experience.
 
-🔗 **Live:** [your-url.vercel.app](https://your-url.vercel.app)
-
+🔗 **Live:** [shivam-naithani-portfolio.vercel.app](https://shivam-naithani-portfolio.vercel.app)
 ---
 
 ## Tech Stack
